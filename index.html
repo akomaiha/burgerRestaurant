@@ -22,6 +22,9 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/js/all.js"></script>
+
     <title>Burger Retaurant</title>
     <style>
         .float {
@@ -53,8 +56,10 @@
         .display-table {
             display: table;
         }
-        .color-white {
+        .font-size-40 {
             font-size: 40px;
+        }
+        .color-white {
             color: white;
         }
         .text-underline {
@@ -63,8 +68,16 @@
         .text-align-center {
             text-align: center;
         }
-        .font-size-30 {
-
+        .bg-yelow {
+            background-color: #FBAF26;
+        }
+        .rotate-25 {
+            transform: rotate(-25deg);
+            transform-origin: right, top;
+            -ms-transform: rotate(-25deg);
+            -ms-transform-origin:right, top;
+            -webkit-transform: rotate(-25deg);
+            -webkit-transform-origin:right, top;
         }
     </style>
 </head>
@@ -104,22 +117,22 @@
                 <div class="row overflow-auto">
                     <div class="circle display-table">
                         <div class="verticle-align-center">
-                            <a class ="color-white bold" href="burger.html">BURGER</a>
+                            <a class ="color-white font-size-40 bold" href="burger.html">BURGER</a>
                         </div>
                     </div>
                     <div class="circle display-table">
                         <div class="verticle-align-center">
-                            <a class ="color-white bold"  href="wraps.html">WRAPS</a>
+                            <a class ="color-white font-size-40 bold"  href="wraps.html">WRAPS</a>
                         </div>
                     </div>
                     <div class="circle display-table">
                         <div class="verticle-align-center">
-                            <a class ="color-white bold"  href="sides.html">SIDES</a>
+                            <a class ="color-white font-size-40 bold"  href="sides.html">SIDES</a>
                         </div>
                     </div>
                     <div class="circle display-table">
                         <div class="verticle-align-center">
-                            <a class ="color-white bold"  href="smoothies.html">SMOOTHIES</a>
+                            <a class ="color-white font-size-40 bold"  href="smoothies.html">SMOOTHIES</a>
                         </div>
                     </div>
                 </div>
@@ -138,7 +151,31 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-12 bg-danger p-5"></div>
+                    <div class="col-12 bg-danger p-5 row">
+                        <div class="col-6 text-align-center">
+                            <div class="row">
+                                <div class="col-md-4 col-xs-6 bg-yelow py-3 color-white bold rotate-25">
+                                    734.547.5994
+                                    <div class="bg-dark px-3 py-2 mt-20 position-absolute">call us!</div>
+                                </div>
+                                <div class="col-8"></div>
+                            </div>
+
+                        </div>
+                        <div class="col-6">
+                            <div class="row">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <i class="fas fa-map-marker-alt mt-1 mr-1"></i>
+                                    4872 Washtenaw Avenue,<br> Ann Arbor, Michigan, 48108
+                                </div>
+                            </div>
+                            <div class="row mt-20">
+                                <div class="col-12 d-flex justify-content-end">
+                                    <a href="" class="text-decoration-none text-reset"><i class="fab fa-instagram"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </main>

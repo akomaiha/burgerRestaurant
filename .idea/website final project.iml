@@ -5,5 +5,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="restaurant" />
+    <orderEntry type="module" module-name="ContactFrom_v2" />
   </component>
 </module>
